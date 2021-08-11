@@ -1,6 +1,5 @@
-# UJDA
-Unsupervised domain adaptation with unified joint
-distribution alignment
+# Unsupervised domain adaptation with unified joint distribution alignment
+This directory contains the code for paper [unsupervised domain adaptation with unified joint distribution alignment](https://link.springer.com/chapter/10.1007/978-3-030-73197-7_30)
 
 ## Prerequisites:
 
@@ -19,12 +18,21 @@ run :
 
     python train.py --config ../config/dann.yml   --dataset Office-31   --src_address ../data/amazon.txt    --tgt_address     ../data/dslr.txt  --src_test_address ../data/amazon.txt
 
+
+
+## Contact
+If you have any problem about our code, feel free to contact 
+- duyuntao@smail.nju.edu.cn
+- yaoyueduzhen@outlook.com.
+
 ## Citation:
 If you use this code for your research, please consider citing:
 
 ```
-
+@inproceedings{Du2021UnsupervisedDA,
+  title={Unsupervised Domain Adaptation with Unified Joint Distribution Alignment},
+  author={Yuntao Du and Zhiwen Tan and Xiaowen Zhang and Yirong Yao and Hualei Yu and Chong-Jun Wang},
+  booktitle={DASFAA},
+  year={2021}
+}
 ```
-
-## Contact
-If you have any problem about our code, feel free to contact yaoyueduzhen@outlook.com.
