@@ -1,12 +1,6 @@
 # Unsupervised domain adaptation with unified joint distribution alignment
 This project implements our paper [unsupervised domain adaptation with unified joint distribution alignment](https://link.springer.com/chapter/10.1007/978-3-030-73197-7_30). Please refer to our paper [1] for the method and technical details.
 
-<div align = "center">
-<img src="https://z3.ax1x.com/2021/08/09/f8IDE9.png" width = "65%"/>
-<br>
-<div>图1 时间序列的时序分布漂移现象示意图</div>
-<br>
-</div>
 
 
 ## Prerequisites:
